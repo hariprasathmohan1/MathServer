@@ -101,11 +101,11 @@ urlpatterns = [path('', views.calculate_bill, name='bill')]
 
 ## OUTPUT - SERVER SIDE:
 
-c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot (26).png
+![alt text](image.png)
 
 ## OUTPUT - WEBPAGE:
 
-c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot (27).png
+![alt text](image-1.png)
 
 
 ## RESULT:
