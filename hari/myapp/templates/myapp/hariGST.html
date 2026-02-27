@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+        <title>Hari Prasath.M</title>
+        <style>
+            .box
+{
+    border: solid 11px oklab(27.063% 0.0017 -0.15899);
+    background-color: antiquewhite;
+    padding: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+body
+{
+    background-color: rgb(112, 255, 80);
+    text-align: center;
+}
+        </style>>
+    </head>
+    <body>
+        <div class="box">
+            <h1>Total bill Calculation</h1><br>
+            <h3>Hari prasath-(25018172)</h3>
+            <br>
+            <form method="post">
+                {% csrf_token %}
+                <label>Price : </label><input type="text" name="Price"><br>
+                <label>GST : </label><input type="text" name="GST"><br><br>
+                <input type="submit" value="Calculate"><br><br>
+                <label>Bill</label><input type="text" value="{{ bill }}">
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
