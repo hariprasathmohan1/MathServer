@@ -98,6 +98,7 @@ def calculate_bill(request):
   from django.urls import path
 from myapp import views
 urlpatterns = [path('', views.calculate_bill, name='bill')]
+```
 
 ## OUTPUT - SERVER SIDE:
 
